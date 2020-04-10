@@ -304,21 +304,21 @@
     color: white;
 }
 
-.modal {
+.modalbir .modal {
     text-align: center;
 }
 
-.modal-body {
+.modalbir .modal-body {
     overflow-y: scroll;
 }
 
-.modal h3 {
+.modalbir .modal h3 {
     margin-left: 135px;
     color: #009e7f;
     font-family: sans-serif;
 }
 
-.modal input {
+.modalbir .modal input {
     width: 80%;
     height: 48px;
     background-color: rgb(247, 247, 247);
@@ -339,7 +339,7 @@
     margin: auto;
 }
 
-.modal .sociable {
+.modalbir .modal .sociable {
     margin-left: 70px;
     margin-top: 10px;
     cursor: pointer;
@@ -468,4 +468,246 @@
 
 .bcktup svg {
     margin-right: 5px;
+}
+
+.inbacket {
+    width: 420px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    top: 0;
+    display: none;
+}
+
+.inbup {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding: 15px 25px;
+}
+
+.closebacket {
+    width: 10px;
+    height: 10px;
+    color: #bfbfbf;
+    cursor: pointer;
+}
+
+.closebacket:hover {
+    color: red;
+}
+
+.inbupleft {
+    color: #009e7f;
+}
+
+.middle {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-height: 0px;
+    max-height: 100vh;
+    color: #77798c;
+}
+
+.inbdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+}
+
+.inbdown .downup button {
+    margin: auto;
+    color: #009e7f;
+    background-color: white;
+    border: none;
+}
+
+.downdown button {
+    height: 48px;
+    width: calc(100% - 30px);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(0, 158, 127);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 0px;
+    border-radius: 48px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+}
+
+.downdown button span {
+    width: auto;
+    height: 44px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 158, 127);
+    margin-right: 2px;
+    padding: 0px 30px;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.downdown button a {
+    color: white;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 30px
+}
+
+.show {
+    display: block;
+    flex-direction: column;
+}
+
+.modaliki .modal {
+    width: 900px;
+    height: 600px;
+    z-index: 100000;
+}
+
+.modaliki .modal-dialog {
+    max-width: 900px;
+    display: flex;
+}
+
+.modaliki .modal-body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.modaliki .modalleft {
+    width: 442.5px;
+    height: 486px;
+    padding: 30px 60px;
+}
+
+.modaliki .modalright {
+    width: 442.5px;
+    height: 486px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 1px solid #f3f3f3;
+    text-align: left;
+}
+
+.modalright p {
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: rgb(119, 121, 140);
+}
+
+.modaliki .modalright .pcs {
+    font-family: "Lato" sans-serif;
+    color: rgb(119, 121, 140);
+    font-size: 13px;
+}
+
+.modalright .downright {
+    width: 85px;
+    margin-right: auto;
+    background-color: white;
+    color: #009e7f;
+}
+
+.modaliki .modalright .downright:hover {
+    background-color: #009e7f;
+    color: white;
+}
+
+.modaliki .modalright .price {
+    color: #009e7f;
+    margin-right: auto;
+}
+
+.modaliki .buttons .buttonss {
+    width: 140px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    margin-right: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+.modaliki .buttons .buttonsss {
+    width: 100px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    margin-right: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+.modaliki .modalleft .mainphoto {
+    width: 323px;
+    height: 323px;
+}
+
+.mainphoto img {
+    width: 300px;
+    height: 300px;
+}
+
+.mainphoto .downphoto {
+    width: 323px;
+    height: 65px;
+    padding-right: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.mainphoto .downphoto:active {
+    border-color: blue;
+}
+
+.downphoto img {
+    width: 80.72px;
+    height: 80.72px;
 }
