@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     overflow-x: hidden;
 }
 
@@ -43,8 +46,36 @@
     font-size: 14px;
     border: none;
     border-radius: 3px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+
+.popproducts {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    display: none;
+    /* position: absolute; */
+    right: -30;
+    z-index: 10000;
+}
+
+.popproducts .h3tag {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #161f6a;
+    height: 50px;
+    width: 100%;
+}
+
+.sol {
+    width: 268px;
+    height: 140px;
+}
+
+.show3 {
+    display: block;
+    transition: 1s;
 }
 
 .navright button:hover {
@@ -54,6 +85,77 @@
 
 .zeng {
     margin: 0 45px;
+}
+
+.inzeng {
+    display: none;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 330px;
+    height: 191px;
+    background-color: white;
+    z-index: 10000;
+    position: absolute;
+    top: 77px;
+    right: 130px;
+}
+
+.inzeng .clearall {
+    background: white;
+    color: red;
+}
+
+.inzengbir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inzengbir span {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #161f6a;
+    margin-left: 10px;
+}
+
+.inzeng .clearall:hover {
+    background-color: white;
+    color: red;
+}
+
+.delivery {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #161f6a;
+    margin-left: 15px;
+}
+
+.fivem {
+    color: rgb(102, 109, 146);
+    font-size: 14px;
+}
+
+.order {
+    font-size: 14px;
+    color: rgb(102, 109, 146);
+    margin-left: 15px;
+}
+
+.inzeng .morefeeds {
+    width: 77px;
+    height: 21px;
+    background-color: white;
+    color: rgb(0, 189, 135);
+    margin-left: 125px;
+}
+
+.inzeng .morefeeds:hover {
+    background-color: white;
+    color: rgb(0, 189, 135);
+}
+
+.show {
+    display: block;
 }
 
 .zengg {
@@ -75,6 +177,55 @@
     height: 40px;
     background-color: white;
     cursor: pointer;
+}
+
+.forcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.popadmin {
+    display: none;
+    /* display: flex;
+    flex-direction: column; */
+    position: absolute;
+    right: 50px;
+    top: 85px;
+    width: 220px;
+    height: 150px;
+    background-color: white;
+}
+
+.show2 {
+    display: block;
+}
+
+.popadmin .atag {
+    padding: 16px 20px;
+    line-height: 1.2em;
+    color: rgb(102, 109, 146);
+    margin: 0px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.popadmin .atag:hover {
+    color: rgb(0, 189, 135);
+}
+
+.popadmin .btlog {
+    background-color: white;
+    color: rgb(102, 109, 146);
+    margin-right: 30px !important;
+}
+
+.popadmin .btlog:hover {
+    background-color: white;
+    color: rgb(0, 189, 135);
 }
 
 .admin img {
@@ -151,7 +302,7 @@
 }
 
 .middleright {
-    width: 1031px;
+    max-width: 1031px;
     height: 1517px;
     padding: 45px 30px;
     background-color: #f7f7f7;
@@ -231,4 +382,31 @@
     border: none;
     font-family: 'Lato', sans-serif;
     margin: auto;
+}
+
+.cedvel {
+    width: 990px;
+    height: 450px;
+    overflow: scroll;
+}
+
+table {
+    border-spacing: 0;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.25rem;
+    color: rgb(22, 31, 106);
+}
+
+th {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    width: 400px;
 }
