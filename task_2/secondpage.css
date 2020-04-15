@@ -385,15 +385,20 @@ body {
 }
 
 .cedvel {
-    width: 990px;
+    min-width: 900px;
     height: 450px;
     overflow: scroll;
+    margin: auto;
+}
+
+thead {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 table {
     border-spacing: 0;
     background-color: white;
-    border: 1px solid #d1d1d1;
+    /* border: 1px solid #d1d1d1; */
     text-align: left;
 }
 
@@ -408,5 +413,5 @@ th {
     position: sticky;
     background-color: white;
     border: 1px solid #d1d1d1;
-    width: 400px;
+    min-width: 100px;
 }
