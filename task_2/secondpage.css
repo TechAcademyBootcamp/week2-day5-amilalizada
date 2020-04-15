@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    width: 1301px;
+    width: 100%;
     height: 88px;
     margin: auto;
     padding: 20px 45px !important;
@@ -235,7 +235,7 @@ body {
 }
 
 .middleside {
-    width: 1301px;
+    /* width: ; */
     height: 2000px;
     margin: auto;
     margin-top: 88px;
@@ -310,9 +310,9 @@ body {
 }
 
 .midrighthead {
-    min-width: 900px;
-    height: 128px;
-    margin: 0 0 15px;
+    /* min-width: 900px; */
+    /* height: 128px; */
+    padding: 50px 0px !important;
     align-items: center;
     background-color: white;
 }
@@ -342,7 +342,7 @@ body {
 }
 
 .midrighthead input {
-    width: 331px;
+    /* width: 100%px; */
     height: 41px;
     border: none;
     background-color: #eeeeee;
@@ -417,7 +417,6 @@ th {
 .hamburger {
     width: 26px;
     height: 22px;
-    display: none;
 }
 
 .hamburgersvg {
@@ -427,12 +426,17 @@ th {
     /* display: none; */
 }
 
+.pophamburger {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 333px;
+    height: 800px;
+    display: none;
+    background-color: white;
+    overflow-y: scroll;
+}
 
-/* @media screen and (max-width: 1200px) {
-    .navleft img {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-} */
+.show4 {
+    display: block;
+}
