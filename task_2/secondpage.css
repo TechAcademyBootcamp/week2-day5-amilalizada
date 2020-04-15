@@ -310,13 +310,11 @@ body {
 }
 
 .midrighthead {
-    width: 924px;
+    min-width: 900px;
     height: 128px;
     margin: 0 0 15px;
     align-items: center;
     background-color: white;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .midrighthead h2 {
@@ -381,7 +379,7 @@ body {
     color: white;
     border: none;
     font-family: 'Lato', sans-serif;
-    margin: auto;
+    margin-left: 480px;
 }
 
 .cedvel {
@@ -398,7 +396,6 @@ thead {
 table {
     border-spacing: 0;
     background-color: white;
-    /* border: 1px solid #d1d1d1; */
     text-align: left;
 }
 
@@ -414,4 +411,28 @@ th {
     background-color: white;
     border: 1px solid #d1d1d1;
     min-width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+.hamburger {
+    width: 26px;
+    height: 22px;
+    display: none;
+}
+
+.hamburgersvg {
+    width: 26px;
+    height: 18px;
+    margin-left: 0;
+    /* display: none; */
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .navleft img {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+} */
